@@ -85,11 +85,7 @@ ul li a:hover{
     color:var(--secundry-color);
     background-color: var(--text-color-2);
 }
-hr{
-    position: fixed;
-    z-index: 
-    1;
-}
+
 /* main page cssss */
 
 section{
@@ -140,7 +136,30 @@ form #email{
 }
 
 /* work section cssssssssssss */
-
 #work{
-    
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.work-head{
+    font-size:4rem;
+    text-align: center;
+    display: block;
+    width:100%;
+    margin: 0;
+
+}
+#work hr{
+    color: rgb(0, 0, 0);
+}
+#work #video{
+    width:380px;
+    height:240px;
+    margin-top: 6vh;
+    border-radius: 25px;
+    box-shadow: 0 0 5px 5px gray;
 }
