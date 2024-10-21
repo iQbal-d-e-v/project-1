@@ -1,0 +1,146 @@
+:root{
+    --primary-color:rgb(255, 255, 255);
+    --secundry-color:rgb(202, 185, 228);
+    --text-color-1:rgb(91, 22, 110);
+    --text-color-2:rgb(74, 56, 77);
+}
+
+
+
+
+*{
+    box-sizing:border-box;
+}
+html{
+    font-size:62.5%;
+    scroll-behavior: smooth;
+}
+
+/* nav bar csssss */
+header{
+    background-color: var(--primary-color);
+    width:100%;
+    height:10vh;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+}
+#header-img{
+    width:44px;
+    height:44px;
+    margin-left: 3vw;
+}
+#brand-name{
+    height:33px;
+    width:fit-content;
+    font-size: 3.6rem;
+    margin-left: -25vw;
+    place-self: center;
+
+}
+#nav-bar{
+    width:35%;
+    margin-right: 7vw;
+}
+ul{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 2vw;
+    border-radius: 25%;
+}
+ul li{
+    list-style: none;
+    align-items: center;
+    border-radius: 25%;
+}
+ul #li3{
+    margin-right: -25px;
+    
+    
+}
+ul #li3 a{
+    background-color: rgba(255, 224, 45, 0.929);
+}
+ul #li3 a:hover{
+    color: rgba(255, 224, 45, 0.929);
+    background-color: var(--text-color-2);
+
+}
+ul li a{
+    font-size: 2.6rem;
+    text-decoration: none;
+    color: var(--text-color-2);
+    padding: 3px 8px;
+    background-color: var(--secundry-color);
+    border-radius: 25%;
+    
+}
+ul li a:hover{
+    color:var(--secundry-color);
+    background-color: var(--text-color-2);
+}
+hr{
+    position: fixed;
+    z-index: 
+    1;
+}
+/* main page cssss */
+
+section{
+    height:100vh;
+    width:100vw;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1vh;
+}
+#home-p-1{
+    font-size: 6.6rem;
+
+}
+#home-p-2{
+    font-size: 3rem;
+    margin-top: -5vh;
+
+}
+form{
+    display: flex;
+    gap: 10px;
+
+}
+form input{
+    border: none;
+    border-radius: 20px;
+    
+}
+form #email{
+    padding-left:10px ;
+    height:20px;
+    width:350px;
+    border: 0.6px solid black;
+    background-color: beige;
+}
+#submit{
+    background-color: var(--secundry-color);
+    border: none;
+    border-radius: 20PX;
+}
+#submit:hover{
+    background-color: gold;
+}
+
+/* work section cssssssssssss */
+
+#work{
+    
+}
