@@ -47,32 +47,32 @@ header{
     width:35%;
     margin-right: 7vw;
 }
-ul{
+#nav-bar ul{
     display:flex;
     align-items: center;
     justify-content: space-evenly;
     gap: 2vw;
     border-radius: 25%;
 }
-ul li{
+#nav-bar ul li{
     list-style: none;
     align-items: center;
     border-radius: 25%;
 }
-ul #li3{
+#nav-bar ul #li3{
     margin-right: -25px;
     
     
 }
-ul #li3 a{
+#nav-bar ul #li3 a{
     background-color: rgba(255, 224, 45, 0.929);
 }
-ul #li3 a:hover{
+#nav-bar ul #li3 a:hover{
     color: rgba(255, 224, 45, 0.929);
     background-color: var(--text-color-2);
 
 }
-ul li a{
+#nav-bar ul li a{
     font-size: 2.6rem;
     text-decoration: none;
     color: var(--text-color-2);
@@ -81,7 +81,7 @@ ul li a{
     border-radius: 25%;
     
 }
-ul li a:hover{
+#nav-bar ul li a:hover{
     color:var(--secundry-color);
     background-color: var(--text-color-2);
 }
@@ -162,4 +162,60 @@ form #email{
     margin-top: 6vh;
     border-radius: 25px;
     box-shadow: 0 0 5px 5px gray;
+}
+/* SUBSCRIBE SECTION CSSSSSSSSSS */
+.product-plans{
+    background-color:blueviolet;
+}
+.sec3{
+    background-color: blueviolet;
+    width:70vw;
+    height:70vh;
+    margin:0 auto;
+    margin-top: 10rem;
+    position:relative;
+    top:10rem;
+    border-radius: 20px;
+    display:flex;
+    justify-content: space-around;
+    padding:30px;
+}
+.line{
+    width:2px;
+    height:60vh;
+    background-color: black;
+    
+}
+.c-1, .c-2, .c-3{
+    width:33%;
+    text-align: center;
+
+}
+.c-1 > h1{
+    text-align: center;
+    font-size:2rem;
+    margin-left: -20px;
+}
+.c-2 > h1{
+    text-align: center;
+    font-size:2rem;
+}
+.c-3 > h1{
+    text-align: center;
+    font-size:2rem;
+}
+.c-1 > ul >li{
+    text-align: left;
+    font-size: 1.5rem;
+    margin-top: 25px;
+}
+.c-2 > ul >li{
+    text-align: left;
+    font-size: 1.5rem;
+    margin-top: 25px;
+}
+.c-3 > ul >li{
+    text-align: left;
+    font-size: 1.5rem;
+    margin-top: 25px;
 }
